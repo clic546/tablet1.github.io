@@ -1,0 +1,44 @@
+table  {
+    border-collapse: collapse ;
+}
+h1 {
+    text-align: center;
+    color: rgb(9, 255, 0);
+    font-size:xxx-large;
+    
+}
+td , tr {
+    border: 2px solid rgb(100, 400, 400);
+    width: 300px;
+    height: 100px;
+    
+    
+    }
+td {
+    font-size: 50px;
+    text-align: center;    
+}
+
+body {
+    background-color: rgb(0, 89, 253);
+    font-family: fantasy;
+    background: rgb(0,212,255);
+background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(2,0,36,1) 46%, rgba(9,107,121,1) 91%);
+}
+td {
+    color: crimson;
+}
+
+td:hover { 
+    
+
+    background: rgb(0,212,255);
+background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,28,121,1) 45%, rgba(2,0,36,1) 100%);
+-webkit-box-shadow: -11px -2px 0px 18px rgba(255, 0, 0, 0.2);
+-moz-box-shadow: -11px -2px 0px 18px rgba(255, 0, 0, 0.2);
+box-shadow: -11px -2px 0px 18px rgba(255, 0, 0, 0.2);
+}
+h1:hover {
+    text-shadow: #ffffff 0 0 20px;
+    color:#3406ff;
+}
